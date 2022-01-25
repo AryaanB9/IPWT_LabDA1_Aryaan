@@ -1,0 +1,106 @@
+/**********************************TAG SELECTORS************************************/
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: #1572A1;
+}
+a:hover {
+    color: #0E4F70;
+}
+
+aside {
+    margin-left: 10px;
+    width: 300px;
+    height: 600px;
+    background-color: azure;
+    border-radius: 15px;
+    font-size: 30px;
+    padding: 15px;
+    float: right;
+}
+
+body {
+    background-color: #9AD0EC;
+    font-family: 'Dongle', sans-serif;
+    font-size: 36px;
+    margin: 0;
+}
+
+footer {
+    background-color: #1572A1;
+    margin: 0;
+    border-top: 2px solid whitesmoke;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+hr {
+    color: whitesmoke ;
+    border: dotted 7px;
+    border-bottom: 0px;
+    width: 10%;
+}
+
+h2 {
+    margin: 20px;
+    color: #1572A1;
+}
+
+h3 {
+    margin: 0;
+}
+
+nav {
+    top: 0px;
+    border-top: 6px solid white;
+    height: 80px;
+    width: 100%;
+    background-color: #9AD0EC;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    margin: 20px;
+}
+
+/* TABLE PROPERTIES */
+td {
+    padding: 2px 15px 2px 15px;
+    border: 2px solid whitesmoke; 
+}
+
+tr:hover {
+    background-color: whitesmoke;
+}
+table {
+    border: 3px solid whitesmoke;
+    border-collapse: collapse;
+}
+
+
+/**********************************CLASS SELECTORS************************************/
+.about {
+    padding: 5%;
+    padding-top: 1%;
+    margin: 0;
+}
+
+.footer-image {
+    height: 120px;
+    width: 120px;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+.nav-items {
+    font-size: 30px;
+    position: relative;
+    left: 7%;
+    bottom: 50%;
+}
