@@ -1,6 +1,7 @@
 /**********************************TAG SELECTORS************************************/
 a {
     text-decoration: none;
+    color: #1572A1;
 }
 a:visited {
     color: #1572A1;
